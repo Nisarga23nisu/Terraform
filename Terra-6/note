@@ -1,0 +1,14 @@
+PS C:\Users\Student\Documents\Terra-6> terraform workspace new prod
+Created and switched to workspace "prod"!
+
+PS C:\Users\Student\Documents\Terra-6> terraform plan
+
+PS C:\Users\Student\Documents\Terra-6> terraform apply -auto-approve
+
+PS C:\Users\Student\Documents\Terra-6> terraform destroy
+
+PS C:\Users\Student\Documents\Terra-6> terraform workspace select default
+Switched to workspace "default"
+
+PS C:\Users\Student\Documents\Terra-6> terraform workspace delete prod   
+Deleted workspace "prod"!
